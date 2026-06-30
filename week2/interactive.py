@@ -10,6 +10,8 @@ Core idea:
 If f is integrable on [a, b], then
 ∫_a^b f(x) dx ≈ Σ f(x_i) Δx as n → ∞
 """
+# %%
+%matplotlib inline
 # %% [setup — run once, then delete]
 %pip install numpy sympy matplotlib
 # %%
@@ -60,3 +62,4 @@ import matplotlib.pyplot as plt
 # Plot error for n = 1 to 100
 
 # Copilot: implement loop + error computation + plot
+# %%
