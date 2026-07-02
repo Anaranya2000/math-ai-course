@@ -1,0 +1,80 @@
+@misc{Dempster2025_XNF8A6LL,
+  title = {Benign Overfitting and the Geometry of the Ridge Regression Solution in Binary Classification},
+  doi = {10.48550/arXiv.2401.15610},
+  url = {http://arxiv.org/abs/2401.15610},
+  abstract = {Logistic regression is a ubiquitous method for probabilistic classification. However, the effectiveness of logistic regression depends upon careful and relatively computationally expensive tuning, especially for the regularisation hyperparameter, and especially in the context of high-dimensional data. We present a prevalidated ridge regression model that closely matches logistic regression in terms of classification error and log-loss, particularly for high-dimensional data, while being significantly more computationally efficient and having effectively no hyperparameters beyond regularisation. We scale the coefficients of the model so as to minimise log-loss for a set of prevalidated predictions derived from the estimated leave-one-out cross-validation error. This exploits quantities already computed in the course of fitting the ridge regression model in order to find the scaling parameter with nominal additional computational expense.},
+  author = {Dempster, Angus and Webb, Geoffrey I. and Schmidt, Daniel F.},
+  year = {2025}
+}
+@misc{Gómez2024_GM5L3HJ2,
+  title = {Generalized Ridge Regression: Biased Estimation for Multiple Linear Regression Models},
+  doi = {10.48550/arXiv.2407.02583},
+  url = {http://arxiv.org/abs/2407.02583},
+  abstract = {When the regressors of a econometric linear model are nonorthogonal, it is well known that their estimation by ordinary least squares can present various problems that discourage the use of this model. The ridge regression is the most commonly used alternative; however, its generalized version has hardly been analyzed. The present work addresses the estimation of this generalized version, as well as the calculation of its mean squared error, goodness of fit and bootstrap inference.},
+  author = {Gómez, Román Salmerón and García, Catalina García and Reina, Guillermo Hortal},
+  year = {2024}
+}
+@misc{Dabo2026_W3YU4VXW,
+  title = {High-dimensional ridge regression with random features for non-identically distributed data with a variance profile},
+  doi = {10.48550/arXiv.2504.03035},
+  url = {http://arxiv.org/abs/2504.03035},
+  abstract = {Random feature ridge regression is often analyzed in the high-dimensional regime under the homogeneous sampling model $x_i=Σ^\{1/2\}x_i'$, where the vectors $x_i'$ have iid entries and the same covariance matrix $Σ$ is shared by all samples. In this paper, we move beyond this setting and study non-identically distributed data through a variance-profile model in which the training and test covariates have row-dependent diagonal covariance matrices $Σ_i=\diag(γ_\{i1\}^2,\ldots,γ_\{ip\}^2)$ and $\widetildeΣ_i=\diag(\tildeγ_\{i1\}^2,\ldots,\tildeγ_\{ip\}^2)$. Our main contribution is the derivation of asymptotic equivalents for the training and test risks of ridge regression with random features when $n$, $p$, and $m$ grow proportionally. The first set of equivalents is obtained by combining the linear-plus-chaos approximation with traffic-probability arguments, whereas the second set is deterministic and follows from operator-valued free probability through an amalgamation-over-the-diagonal argument. These equivalents are sharp in numerical experiments. They also reveal how heterogeneous variance profiles, including mixture-type profiles inspired by MNIST, can modify generalization and exhibit double-descent behavior when the ridge parameter is small.},
+  author = {Dabo, Issa-Mbenard and Bigot, Jérémie},
+  year = {2026}
+}
+@article{Mourtada2022_2AZADH3M,
+  title = {An elementary analysis of ridge regression with random design},
+  journal = {Comptes Rendus. Mathématique},
+  volume = {360},
+  number = {G9},
+  pages = {1055-1063},
+  doi = {10.5802/crmath.367},
+  url = {http://arxiv.org/abs/2203.08564},
+  abstract = {In this note, we provide an elementary analysis of the prediction error of ridge regression with random design. The proof is short and self-contained. In particular, it bypasses the use of Rudelson's deviation inequality for covariance matrices, through a combination of exchangeability arguments, matrix perturbation and operator convexity.},
+  author = {Mourtada, Jaouad and Rosasco, Lorenzo},
+  year = {2022}
+}
+@misc{Cheng2025_NA6R92X9,
+  title = {Dimension free ridge regression},
+  doi = {10.48550/arXiv.2210.08571},
+  url = {http://arxiv.org/abs/2210.08571},
+  abstract = {Random matrix theory has become a widely useful tool in high-dimensional statistics and theoretical machine learning. However, random matrix theory is largely focused on the proportional asymptotics in which the number of columns grows proportionally to the number of rows of the data matrix. This is not always the most natural setting in statistics where columns correspond to covariates and rows to samples. With the objective to move beyond the proportional asymptotics, we revisit ridge regression ($\ell_2$-penalized least squares) on i.i.d. data $(x_i, y_i)$, $i\le n$, where $x_i$ is a feature vector and $y_i = β^\top x_i +ε_i \in\mathbb\{R\}$ is a response. We allow the feature vector to be high-dimensional, or even infinite-dimensional, in which case it belongs to a separable Hilbert space, and assume either $z_i := Σ^\{-1/2\}x_i$ to have i.i.d. entries, or to satisfy a certain convex concentration property. Within this setting, we establish non-asymptotic bounds that approximate the bias and variance of ridge regression in terms of the bias and variance of an `equivalent' sequence model (a regression model with diagonal design matrix). The approximation is up to multiplicative factors bounded by $(1\pm Δ)$ for some explicitly small $Δ$. Previously, such an approximation result was known only in the proportional regime and only up to additive errors: in particular, it did not allow to characterize the behavior of the excess risk when this converges to $0$. Our general theory recovers earlier results in the proportional regime (with better error rates). As a new application, we obtain a completely explicit and sharp characterization of ridge regression for Hilbert covariates with regularly varying spectrum. Finally, we analyze the overparametrized near-interpolation setting and obtain sharp `benign overfitting' guarantees.},
+  author = {Cheng, Chen and Montanari, Andrea},
+  year = {2025}
+}
+@article{Hoerlnodate_7LUNFXUG,
+  title = {Ridge Regression: Biased Estimation for Nonorthogonal Problems},
+  author = {Hoerl, Arthur E and Kennard, Robert W}
+}
+@misc{Wieringen2023_72DINKKY,
+  title = {Lecture notes on ridge regression},
+  doi = {10.48550/arXiv.1509.09169},
+  url = {http://arxiv.org/abs/1509.09169},
+  abstract = {The linear regression model cannot be fitted to high-dimensional data, as the high-dimensionality brings about empirical non-identifiability. Penalized regression overcomes this non-identifiability by augmentation of the loss function by a penalty (i.e. a function of regression coefficients). The ridge penalty is the sum of squared regression coefficients, giving rise to ridge regression. Here many aspect of ridge regression are reviewed e.g. moments, mean squared error, its equivalence to constrained estimation, and its relation to Bayesian regression. Finally, its behaviour and use are illustrated in simulation and on omics data. Subsequently, ridge regression is generalized to allow for a more general penalty. The ridge penalization framework is then translated to logistic regression and its properties are shown to carry over. To contrast ridge penalized estimation, the final chapters introduce its lasso counterpart and generalizations thereof.},
+  author = {Wieringen, Wessel N. van},
+  year = {2023}
+}
+@misc{Khan2016_3677YJFU,
+  title = {Stability Selection for Lasso, Ridge and Elastic Net Implemented with AFT Models},
+  doi = {10.48550/arXiv.1604.07311},
+  url = {http://arxiv.org/abs/1604.07311},
+  abstract = {The instability in the selection of models is a major concern with data sets containing a large number of covariates. We focus on stability selection which is used as a technique to improve variable selection performance for a range of selection methods, based on aggregating the results of applying a selection procedure to sub-samples of the data where the observations are subject to right censoring. The accelerated failure time (AFT) models have proved useful in many contexts including the heavy censoring (as for example in cancer survival) and the high dimensionality (as for example in micro-array data). We implement the stability selection approach using three variable selection techniques--Lasso, ridge regression, and elastic net applied to censored data using AFT models. We compare the performances of these regularized techniques with and without stability selection approaches with simulation studies and a breast cancer data analysis. The results suggest that stability selection gives always stable scenario about the selection of variables and that as the dimension of data increases the performance of methods with stability selection also improves compared to methods without stability selection irrespective of the collinearity between the covariates.},
+  author = {Khan, Md Hasinur Rahaman and Bhadra, Anamika and Howlader, Tamanna},
+  year = {2016}
+}
+@misc{Allerbo2023_QJMBTFFR,
+  title = {Elastic Gradient Descent, an Iterative Optimization Method Approximating the Solution Paths of the Elastic Net},
+  doi = {10.48550/arXiv.2202.02146},
+  url = {http://arxiv.org/abs/2202.02146},
+  abstract = {The elastic net combines lasso and ridge regression to fuse the sparsity property of lasso with the grouping property of ridge regression. The connections between ridge regression and gradient descent and between lasso and forward stagewise regression have previously been shown. Similar to how the elastic net generalizes lasso and ridge regression, we introduce elastic gradient descent, a generalization of gradient descent and forward stagewise regression. We theoretically analyze elastic gradient descent and compare it to the elastic net and forward stagewise regression. Parts of the analysis are based on elastic gradient flow, a piecewise analytical construction, obtained for elastic gradient descent with infinitesimal step size. We also compare elastic gradient descent to the elastic net on real and simulated data and show that it provides similar solution paths, but is several orders of magnitude faster. Compared to forward stagewise regression, elastic gradient descent selects a model that, although still sparse, provides considerably lower prediction and estimation errors.},
+  author = {Allerbo, Oskar and Jonasson, Johan and Jörnsten, Rebecka},
+  year = {2023}
+}
+@misc{Zhang2021_GPDPBLCH,
+  title = {Ridge Regression Revisited: Debiasing, Thresholding and Bootstrap},
+  doi = {10.48550/arXiv.2009.08071},
+  url = {http://arxiv.org/abs/2009.08071},
+  abstract = {The success of the Lasso in the era of high-dimensional data can be attributed to its conducting an implicit model selection, i.e., zeroing out regression coefficients that are not significant. By contrast, classical ridge regression can not reveal a potential sparsity of parameters, and may also introduce a large bias under the high-dimensional setting. Nevertheless, recent work on the Lasso involves debiasing and thresholding, the latter in order to further enhance the model selection. As a consequence, ridge regression may be worth another look since -- after debiasing and thresholding -- it may offer some advantages over the Lasso, e.g., it can be easily computed using a closed-form expression. % and it has similar performance to threshold Lasso. In this paper, we define a debiased and thresholded ridge regression method, and prove a consistency result and a Gaussian approximation theorem. We further introduce a wild bootstrap algorithm to construct confidence regions and perform hypothesis testing for a linear combination of parameters. In addition to estimation, we consider the problem of prediction, and present a novel, hybrid bootstrap algorithm tailored for prediction intervals. Extensive numerical simulations further show that the debiased and thresholded ridge regression has favorable finite sample performance and may be preferable in some settings.},
+  author = {Zhang, Yunyi and Politis, Dimitris N.},
+  year = {2021}
+}
